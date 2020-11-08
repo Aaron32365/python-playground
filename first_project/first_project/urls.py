@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from first_app import views
+# map views to paths/routes here
 
 urlpatterns = [
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
 ]

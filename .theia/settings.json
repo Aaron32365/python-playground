@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.6/bin/python",
+    "python.autoComplete.extraPaths": ["./first_project/"]
+}
